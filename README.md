@@ -1,10 +1,10 @@
 # spring-assignment
 
-## * **Demo Application**- basic curd application using H2 Database (except update functionality).
-## * **Microservice1**- has getAll and getById methods from demo application.
-## * **Microservice2**- has post,delete, put methods from demo application.
-## * **springGateway**- has only routes defined to both the microservices (ports and routes).
-## * **webclient**- used webclient,multivaluemap,mono stream to get the response from the given url (independent project)
+### * **Demo Application**- basic curd application using H2 Database (except update functionality).
+### * **Microservice1**- has getAll and getById methods from demo application.
+### * **Microservice2**- has post,delete, put methods from demo application.
+### * **springGateway**- has only routes defined to both the microservices (ports and routes).
+### * **webclient**- used webclient,multivaluemap,mono stream to get the response from the given url (independent project)
 
 ### * Step 1- Complete step one is done in Demo Application. Used postman not SwaggerUi.
 ### * Step 2
