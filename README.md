@@ -1,13 +1,13 @@
 # spring-assignment
 
-### * **Demo Application**- basic curd application using H2 Database (except update functionality).
-### * **Microservice1**- has getAll and getById methods from demo application.
-### * **Microservice2**- has post,delete, put methods from demo application.
-### * **springGateway**- has only routes defined to both the microservices (ports and routes).
-### * **webclient**- used webclient,multivaluemap,mono stream to get the response from the given url (independent project)
+* **Demo Application**- basic curd application using H2 Database (except update functionality).
+* **Microservice1**- has getAll and getById methods from demo application.
+* **Microservice2**- has post,delete, put methods from demo application.
+* **springGateway**- has only routes defined to both the microservices (ports and routes).
+* **webclient**- used webclient,multivaluemap,mono stream to get the response from the given url (independent project)
 
-### * Step 1- Complete step one is done in Demo Application. Used postman not SwaggerUi.
-### * Step 2
+* **Step 1**- Complete step one is done in Demo Application. Used postman not SwaggerUi.
+* **Step 2**
    - 1. implement Resilience4j- Adding callback mathods in Demo Application for exceptions inorder to achieve this.
    - 1. Split up (Step 1) to 2 Microservices and Spring Gateway
      -Demo Application is splitted into two microservices:
