@@ -18,9 +18,9 @@
      - Acheived this by adding an extra package in both microservices using, @FeignClient(name="microservice2",url="localhost:8082") for          microservice1 and vice verca for microservice 2.
   1. Implement Kafka consumer and producer to communicate the data
       - Acheived this only in Microservice1 by adding an extra ```/saveKafka``` route in the controller and Producer/Consumer classes in the service package.
-      - **Need to download kafka serperately and run both Kafka/Zookeper on the commandline in order to get the data in your console log**
+      - ```**Need to download kafka serperately and run both Kafka/Zookeper on the commandline in order to get the data in your console log**```
   1. Implement Redis cache (so everytime we dont have to hit our database for information)
-      - **Download Redis from a git up repo and make sure it is running in the background to achieve this.**
+      - ```**Download Redis from a git up repo and make sure it is running in the background to achieve this.**```
       - I have only done this to Microservice1, that too for getById method and delete method using @Cacheable and @CacheEvict and by enabling it through main application using @EnableCaching
   1.  Try to get the response from below details using Webclient (reactive spring) (**mandatory)
       - Completely independent project from others with only one class and we are calling that class from the main application class.
