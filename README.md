@@ -15,7 +15,7 @@
         -Microservice2- Post and Delete methods at 8082
         -SpringGateway- a project which has both routs and ports of both microservices in its application properties.
    - 1. Split up (Step 1) to 2 Microservices and communicate between two Microservices using OpenFeign
-      Acheived this by adding an extra package in both microservices using, @FeignClient(name="microservice2",url="localhost:8082") for microservice1 and vice verca for microservice 2.
+     - Acheived this by adding an extra package in both microservices using, @FeignClient(name="microservice2",url="localhost:8082") for          microservice1 and vice verca for microservice 2.
    - 1. Implement Kafka consumer and producer to communicate the data
       -Acheived this only in Microservice1 by adding an extra ```/saveKafka``` route in the controller and Producer/Consumer classes in the service package.
       -**Need to download kafka serperately and run both Kafka/Zookeper on the commandline in order to get the data in your console log**
